@@ -67,4 +67,4 @@ The raw data is not included in this repo. Download it from [Kaggle](https://www
 
 **Siti Suharyanti** - Junior Data Analyst based in Indonesia, open to remote and international opportunities.
 
-More projects: [Portfolio](https://github.com/SitiSuharyanti/Data-Analyst-Portfolio) · [LinkedIn](https://linkedin.com/in/sitisuharyanti/) · [Email](mailto:siti.suharyanti2001@gmail.com)
+More projects: [Portfolio](https://github.com/SitiSuharyanti/Data-Analyst-Portfolio) · [LinkedIn](https://linkedin.com/in/sitisuharyanti/) · [Email](siti.suharyanti2001@gmail.com)
