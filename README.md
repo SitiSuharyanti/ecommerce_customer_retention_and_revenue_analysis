@@ -10,7 +10,7 @@ This project goes beyond building a dashboard. I documented the main data cleani
 
 **Olist is bringing in new customers, but very few of them come back. What's happening with customer retention, and what could the business do about it?**
 
-The analysis covers two years of order data (Sep 2016 – Aug 2018) and found a repeat purchase rate of just **3.04%**. The pattern is consistent across most customer cohorts, suggesting that low repeat purchases are not limited to a particular period.
+The analysis covers two years of order data (Sep 2016–Aug 2018) and found a repeat purchase rate of just **3.04%**. The pattern is consistent across most customer cohorts, suggesting that low repeat purchases are not limited to a particular period.
 
 Revenue is growing, but the business relies heavily on bringing in new customers rather than getting existing customers to return.
 
@@ -20,7 +20,7 @@ Revenue is growing, but the business relies heavily on bringing in new customers
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Data cleaning & analysis** | Distinguished `customer_id` from `customer_unique_id`, investigated missing dates, identified duplicate reviews, and checked unusual payment records |
 | **SQL**                      | Built queries for cohort retention, revenue by state, repeat purchase rate, and AOV trends using joins, CTEs, and aggregations                       |
-| **DAX / Power BI**           | Built an executive dashboard with KPI cards, revenue trends, revenue by state, and a customer retention heatmap                                      |
+| **DAX/Power BI**           | Built an executive dashboard with KPI cards, revenue trends, revenue by state, and a customer retention heatmap                                      |
 | **Data quality**             | Excluded September 2018 because it was only a partial month and excluded very small early cohorts from the retention trend                           |
 | **Business communication**   | Turned the analysis into a one-page memo with clear findings and recommendations for a non-technical stakeholder.                                    |
 
@@ -37,11 +37,11 @@ The detailed findings, recommendations, and analysis limitations are explained i
 
 **Performance Overview**: KPIs, monthly revenue trend, revenue by customer state, delivery status
 
-<img src="dashboard/1_customer_retention.png" alt="Executive Overview" width="800">
+<img src="dashboard/1_performance_overview.png" alt="Executive Overview" width="800">
 
 **Customer Retention**: Cohort retention heatmap, customer purchase behavior
 
-<img src="dashboard/2_performance_overview.png" alt="Customer Retention" width="800">
+<img src="dashboard/2_customer_retention.png" alt="Customer Retention" width="800">
 
 ## Tech stack
 
@@ -62,9 +62,3 @@ ecommerce-retention-analysis/
 ```
 
 The raw data is not included in this repo. Download it from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and place it in the `data/` folder if you want to reproduce the analysis.
-
-## About me
-
-**Siti Suharyanti** - Junior Data Analyst based in Indonesia, open to remote and international opportunities.
-
-More projects: [Portfolio](https://github.com/SitiSuharyanti/Data-Analyst-Portfolio) · [LinkedIn](https://linkedin.com/in/sitisuharyanti/) · [Email](siti.suharyanti2001@gmail.com)
